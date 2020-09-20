@@ -74,8 +74,11 @@ class LinkedList:
     while (temp):  
       temp = temp.Next
       i = i +1
-    return i    
-
+    return i   
+  
+  def clear(self):
+    self.head = None
+    return
 
 
 
@@ -88,7 +91,10 @@ def main():
   ls.append(4)
   print(ls)
   var = 4
-  print('The Number of [{} ] Node in LinkedList is {}  '.format(var,ls.cont(var)))
-  print(len(ls))
+  print('The Number of [{} ] Node in LinkedList is {}  '.format(var,ls.count(var)))
+  print('The Lenght of LinkedList is {} '.format(len(ls)))
+  ls.clear()
+  print(ls)
+  
 main()
 
