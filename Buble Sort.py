@@ -14,7 +14,7 @@ for _ in range(10):
   arr.append(randint(-1, 10))
 print('Befor be Sorted Array : ',arr)
 Bublesort(arr)
-print(arr)
+print('After be Sorted Array : ',arr)
 
 
 def main():
