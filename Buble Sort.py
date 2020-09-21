@@ -9,15 +9,15 @@ def Bublesort(arr):
         print(arr)
         arr[j+1], arr[j] = arr[j], arr[j+1] 
 
-arr = []
-for _ in range(10):
-  arr.append(randint(-1, 10))
-print('Befor be Sorted Array : ',arr)
-Bublesort(arr)
-print('After be Sorted Array : ',arr)
+
 
 
 def main():
-  pass
+  arr = []
+  for _ in range(10):
+    arr.append(randint(-1, 10))
+  print('Befor be Sorted Array : ',arr)
+  Bublesort(arr)
+  print('After be Sorted Array : ',arr)
 
 main()  
